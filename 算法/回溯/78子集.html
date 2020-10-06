@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var subsets = function(nums) {
+            let result = []
+            function backtrack(start, tmpPath) {  // 回溯
+                // [1,2,3]
+                // 本质：n叉树的遍历
+                result.push(tmpPath.slice(0));
+                for (let i = start; i < nums.length; i ++) {
+                    let num = nums[i];
+                    tmpPath.push(num);
+                    backtrack(i + 1, tmpPath);
+                    tmpPath.pop();
+                }
+            }
+            backtrack(0, []);
+            return result;
+            console.log(result([1,2,3]))
+        };  
+        
+    </script>
+</body>
+</html>
