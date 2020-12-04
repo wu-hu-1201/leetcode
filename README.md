@@ -1,2 +1,2 @@
 # leetcode
- leetcode刷题笔记及视频
+ leetcode刷题、笔记
