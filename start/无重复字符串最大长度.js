@@ -8,7 +8,7 @@
 //            // 截去开头到当前字符串
 //            arr.splice(0, index + 1)
 //        }
-//        // 放入剩下的字符串到数组
+//        // 放入剩下字符串到数组
 //        arr.push(s.charAt(i))
 //        // 取max最大值
 //        max = Math.max(arr.length, max)
