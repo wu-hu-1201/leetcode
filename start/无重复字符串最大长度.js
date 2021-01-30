@@ -2,7 +2,7 @@
 //     let arr = []
 //     let max = 0
 //    for (let i = 0; i < s.length; i ++) {
-//        // 使用indexOf判断是否在数组中出现过
+//        // indexOf判断是否在数组中出现过
 //        let index = arrindexOf(s[i])
 //        if (index !== -1) {
 //            // 截去开头到当前字符串
